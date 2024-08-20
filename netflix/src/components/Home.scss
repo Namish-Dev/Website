@@ -1,0 +1,74 @@
+.banner{
+    height: 600px;
+    background-color: black;
+    overflow: hidden;
+
+     .carousel-slide {
+        height: 180vh; 
+      }
+      
+      .carousel-slide img {
+        height: 60%;
+        width: auto;
+        object-fit:fill;
+      }
+
+      .carousel-title {
+        position: absolute; 
+        top: 16rem; 
+        left: 10px; 
+        color: white; 
+        font-size: 5rem; 
+        text-shadow: 1px 1px 2px rgba(246, 219, 219, 0.5); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .btn{
+            display: flex;
+            flex-direction: row;
+            >button{
+                color: white;
+                background-color: rgb(35, 35, 35);
+                border-radius: 10px;
+                width: 14rem;
+                padding: 20px 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                margin-left: 20px;
+                border: none;
+            }
+        }
+      }
+
+}
+
+
+
+.card{
+    width: 200px;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+
+.row{
+    padding: 1rem;
+    background-color: black;
+    >h1{
+        font-family: 'Roboto';
+
+        color: white;
+    }
+    >div{
+        display: flex;
+        overflow-x: auto;
+        
+    }
+
+    
+}
+
